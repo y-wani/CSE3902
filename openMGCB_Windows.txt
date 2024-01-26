@@ -1,0 +1,1 @@
+mgcb-editor-windows Content/Content.mgcb
