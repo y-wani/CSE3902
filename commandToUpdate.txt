@@ -1,0 +1,1 @@
+git checkout > update.txt ; git pull https://github.com/y-wani/CSE3902.git >> update.txt
