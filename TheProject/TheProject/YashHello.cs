@@ -3,11 +3,11 @@ using System.Diagnostics;
 
 namespace TheProject
 {
-    public class YashHello
+    internal class YashHello
     {
-        public void Draw()
+        public void PrintMessage()
         {
-            System.Console.WriteLine("Hello from Yash");
+            Debug.WriteLine("Hello from Yash");
         }
     }
 }
