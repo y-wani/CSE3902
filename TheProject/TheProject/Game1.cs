@@ -21,6 +21,8 @@ namespace TheProject
         {
             // TODO: Add your initialization logic here
 
+            YashHello yash = new YashHello();
+            yash.PrintMessage();
 
             HelloBill bill = new HelloBill();
             bill.Print();
