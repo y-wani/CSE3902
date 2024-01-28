@@ -21,6 +21,10 @@ namespace TheProject
         {
             // TODO: Add your initialization logic here
 
+            LukeHello lukeHello = new();
+            lukeHello.PrintMessage();
+
+
             YashHello yash = new YashHello();
             yash.PrintMessage();
 
