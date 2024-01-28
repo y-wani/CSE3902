@@ -8,6 +8,7 @@ namespace TheProject
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
+        private MinsooHello helloWorld = new MinsooHello();
 
         public Game1()
         {
@@ -20,8 +21,12 @@ namespace TheProject
         {
             // TODO: Add your initialization logic here
 
+
             HelloBill bill = new HelloBill();
             bill.Print();
+
+            helloWorld.Draw();
+
 
             base.Initialize();
         }
@@ -39,6 +44,7 @@ namespace TheProject
                 Exit();
 
             // TODO: Add your update logic here
+            
 
             base.Update(gameTime);
         }
@@ -48,6 +54,10 @@ namespace TheProject
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
+            
+            
+
+
 
             base.Draw(gameTime);
         }
