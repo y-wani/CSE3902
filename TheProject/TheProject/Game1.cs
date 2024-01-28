@@ -21,6 +21,9 @@ namespace TheProject
             // TODO: Add your initialization logic here
 
             base.Initialize();
+
+            PavanHello pavan = new PavanHello();
+            pavan.PrintMessage();
         }
 
         protected override void LoadContent()
