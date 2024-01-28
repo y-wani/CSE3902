@@ -35,6 +35,9 @@ namespace TheProject
 
 
             base.Initialize();
+
+            PavanHello pavan = new PavanHello();
+            pavan.PrintMessage();
         }
 
         protected override void LoadContent()
