@@ -22,7 +22,7 @@ namespace TheProject
 
             base.Initialize();
             YashHello yash = new YashHello();
-            yash.Draw(); 
+            yash.Draw();
         }
 
 
