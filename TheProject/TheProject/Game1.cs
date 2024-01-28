@@ -19,7 +19,9 @@ namespace TheProject
         //change
         protected override void Initialize()
         {
-            // TODO: Add your initialization logic here
+            SamHello sam = new();
+            sam.PrintMessage();
+            base.Initialize();
 
             LukeHello lukeHello = new();
             lukeHello.PrintMessage();
