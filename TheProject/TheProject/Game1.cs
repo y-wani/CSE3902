@@ -21,7 +21,10 @@ namespace TheProject
             // TODO: Add your initialization logic here
 
             base.Initialize();
+            YashHello yash = new YashHello();
+            yash.Draw(); 
         }
+
 
         protected override void LoadContent()
         {
