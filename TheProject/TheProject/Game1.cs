@@ -20,6 +20,9 @@ namespace TheProject
         {
             // TODO: Add your initialization logic here
 
+            HelloBill bill = new HelloBill();
+            bill.Print();
+
             base.Initialize();
         }
 
