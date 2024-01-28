@@ -47,7 +47,7 @@ namespace TheProject
 
             // TODO: Add your drawing code here
 
-            helloWorld.Draw(_spriteBatch);
+            
 
 
 
