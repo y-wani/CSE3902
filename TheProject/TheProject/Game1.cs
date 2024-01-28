@@ -8,7 +8,7 @@ namespace TheProject
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
-        private HelloWorld helloWorld;
+        private MinsooHello helloWorld = new MinsooHello();
 
         public Game1()
         {
@@ -20,6 +20,8 @@ namespace TheProject
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
+
+            helloWorld.Draw();
 
             base.Initialize();
         }
@@ -37,6 +39,7 @@ namespace TheProject
                 Exit();
 
             // TODO: Add your update logic here
+            
 
             base.Update(gameTime);
         }
@@ -46,7 +49,7 @@ namespace TheProject
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
-
+            
             
 
 

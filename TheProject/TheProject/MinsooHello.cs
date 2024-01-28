@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace TheProject
 {
@@ -6,6 +7,14 @@ namespace TheProject
     {
         public void Draw()
         {
-            System.Console.WriteLine("Hello World!");
+
+            //Print out hello world to debug console
+            Debug.WriteLine("Hello Minsoo!");
+
+
+
+
         }
     }
+
+}
