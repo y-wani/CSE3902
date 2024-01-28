@@ -8,6 +8,7 @@ namespace TheProject
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
+        private HelloWorld helloWorld;
 
         public Game1()
         {
@@ -45,6 +46,10 @@ namespace TheProject
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
+
+            helloWorld.Draw(_spriteBatch);
+
+
 
             base.Draw(gameTime);
         }
